@@ -7,7 +7,7 @@ console.log(`hello my name is ${name} and my repo count is ${repoCount}`);
 
 // another way of creating string with object
 
-const gameName = new String('Rahul Shukla-rs')
+const gameName = new String('Rahul Shukla-rs-com')
 
 console.log(gameName[0]);
 console.log(gameName.__proto__);
@@ -30,3 +30,16 @@ console.log(gameName.slice(-4,));      // last 4 characters
 console.log(gameName.slice(-4, -1));  // last 4 chars excluding the last one
 
 console.log(gameName.slice(-8));
+
+
+const newStringone = "     Rahul"
+console.log(newStringone);
+console.log(newStringone.trim());
+
+const url = "www.google%20.com"
+
+console.log(url.replace('%20','-'));
+console.log(url.includes('google'));
+console.log(url.includes('rahul'));
+
+console.log(gameName.split('-'));
