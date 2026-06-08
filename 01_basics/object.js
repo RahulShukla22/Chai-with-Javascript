@@ -1,15 +1,20 @@
-// singleton
-// object.create
-
-const { PureComponent } = require("react");
+//singleton
+//object.create
 
 
-// object literals
-const Jsuser = {
-    name : "Rahul",
-    age : 28,
-    location : PureComponent,
-    email : "rahul.shukla123@gmail.com"
-    islo
+//object literals
+
+const jsuser = {
+    name: "rahul",
+    "full name": "Rahul Shukla",
+    age: 20,
+    location: "pune",
+    email: "rahul123@gmail.com",
+    isLoggedIn: false,
+    lastLoginDays: ["Monday","Saturday"]
+
 }
+    console.log(jsuser.email)
+    console.log(jsuser["email"])
+    console.log(jsuser["full name"])
 
