@@ -29,6 +29,41 @@ console.log(obj3);
 
 const users = [
     {
-        
+        id: 1,
+        email: "h@gmail.com"
+    },
+
+    {
+        id:2,
+        email: "r@gmail.com"
     }
 ]
+
+users[1].email
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const course = {
+    name: "Js in hindhi",
+    price: "999",
+    courseIntructor: "Rahul"
+}
+
+//course.courseIntructor
+
+const {courseIntructor} = course
+
+console.log(courseIntructor);
+
+
+// {
+//     "name": "Rahul",
+//     "coursename": "js in hindhi",
+//     "price": "free"
+// }
